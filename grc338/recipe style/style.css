@@ -1,0 +1,28 @@
+/*CSS DOCUMENT*/
+html {background: #CDDDF6;}
+
+.title {color: #0B377C;}
+
+h1 {text-transform: uppercase;
+    color: #0B377C;
+   // padding: .5em .5em .5em 1em;
+    margin: .5em 0em .25em 1em;}
+
+h2 {background-color: #0B377C;
+    padding: .5em .5em .5em .75em;
+    color: #e5e4e2;
+    margin: .5em 0em 0em .78em;}
+        
+h3 {background-color: #0B377C;
+    padding: .5em .5em .5em .75em;
+    color: #e5e4e2;
+    margin: .5em 0em 0em 1em;}
+
+h4 {text-transform: uppercase;
+    padding: .5em .5em .5em .5em;
+    color: #0B377C;
+    margin: .5em 0em 0em 1em;}
+
+p {color: #003f5f;}
+
+ul {color: #003f5f;}
