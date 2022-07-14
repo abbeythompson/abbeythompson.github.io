@@ -1,0 +1,104 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+body {
+    background-color: whitesmoke; 
+    color: #615836;
+    margin: 1em;
+    font-family: fino-sans;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: fino-sans;
+    font-weight: 700;
+    font-size: 1.7em;
+    letter-spacing: .1em;
+    font-style: normal;
+}
+
+nav ul li a {
+    margin-right: .8em;
+    color: #19535F;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(187,198,119);
+}  
+
+div.container {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+
+
+h3 {
+    color: #615836;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.7em;
+    letter-spacing: .1em;
+    padding-top: .7em;
+    text-decoration: none;
+}
+
+section a {
+    text-decoration: none;
+    max-width: 40em;
+    margin: 0 auto 3em;
+}
+
+p {
+    color: #615836;
+    text-decoration: none;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    font-family: poppins;
+    font-weight: lighter;
+    line-height: 1.35em;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-top: .5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    padding-top: 1em;
+}
+
+@media only screen and (min-width: 60em){
+    div.container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 2em;
+    }
+    
+    header {
+        grid-column: 1/3;  
+    }
+    
+    main {
+        grid-column: 1/2;
+    }
+    
+    aside {
+        grid-column: 2/3;
+    }
+}
